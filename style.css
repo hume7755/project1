@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+body
+{
+    font-family: "Mukta", sans-serif;
+}
+.karma
+{
+    font-family: "Karma", serif;
+}
+ul
+{
+    margin: 0!important;
+    padding: 0!important;
+    list-style: none;
+}
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+a:hover
+{
+    color: red;
+}
+.logo
+{
+    width: 355px;
+}
+header{
+    padding: 15px 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+}
+.navbar-nav .nav-link.active
+{
+    background-color: aqua;
+    border-radius: 40px;
+    color: white;
+    padding: 5px 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after
+{
+    content:"";
+    position: absolute;
+    top: -9px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: rgb(176, 69, 40);
+    transition: 0.9s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after
+{
+    width: 100%;
+}
+.navbar-nav .nav-link.activered
+{
+    background: rgb(186, 74, 74);
+    border-radius:40px;
+    color: white;
+    padding: 5px 20px;
+}
+.social-nav li
+{
+    border: 1px solid grey;#
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px; height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.banner h2
+{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.title
+{
+    background: #ededed;
+    padding: 5px 10px;
+    color: red;
+}
+.title span
+{
+    color:blue;
+}
